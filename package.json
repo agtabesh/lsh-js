@@ -1,0 +1,20 @@
+{
+  "name": "lsh",
+  "version": "0.1.0",
+  "description": "Locality-Sensitive Hashing implementation in node.js for fast and scalable approximate nearest neighbors search",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ahmad Ganjtabesh",
+  "license": "MIT",
+  "keywords": ["locality sensitive hashing", "lsh", "similarity", "minhash"],
+  "dependencies": {
+    "@adonisjs/fold": "^4.0.9",
+    "murmurhash-native": "^3.3.0",
+    "random-words": "^1.1.0"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
