@@ -1,5 +1,5 @@
 {
-  "name": "lsh",
+  "name": "@agtabesh/lsh",
   "version": "0.1.0",
   "description": "Locality-Sensitive Hashing implementation in node.js for fast and scalable approximate nearest neighbors search",
   "main": "src/index.js",

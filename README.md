@@ -4,9 +4,9 @@
 (LSH) reduces the dimensionality of high-dimensional data and hashes input items so that similar items map to the same “buckets” with high probability (the number of buckets being much smaller than the universe of possible input items).
 
 
-[![npm (scoped)](https://img.shields.io/badge/npm-v0.1.0-brightgreen.svg)](https://www.npmjs.com/package/lsh)
+[![npm (scoped)](https://img.shields.io/badge/npm-v0.1.0-brightgreen.svg)](https://www.npmjs.com/package/@agtabesh/lsh)
 [![npm (scoped)](https://img.shields.io/badge/license-MIT-red.svg)](https://www.npmjs.com/package/@agtabesh/lsh)
-[![npm (scoped)](https://img.shields.io/badge/repository-github-lightgrey.svg)](https://www.npmjs.com/package/@agtabesh/lsh)
+[![npm (scoped)](https://img.shields.io/badge/repository-github-lightgrey.svg)](https://github.com/agtabesh/lsh)
 
 ## Install
 
@@ -20,7 +20,7 @@ To figure out how to use this package please take a look at test files
 
 ```js
 const RandomWords = require('random-words')
-const Lsh = require('lsh')
+const Lsh = require('@agtabesh/lsh')
 
 const config = {
   storage: 'memory',
